@@ -1,0 +1,37 @@
+.main-container {
+  background-color: #093145;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  width: 60vh;
+  height: 60vh;
+  background-color: beige;
+  border-radius: 5px;
+}
+.one-box-container,
+.one-box-container__match,
+.zero-container {
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 5px 5px darkcyan;
+  height: 12vh;
+  width: 12vh;
+  margin: 1.3vh;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.one-box-container__match {
+  background-color: coral;
+  box-shadow: 5px 5px #a54006;
+}
+.number-text {
+  font-size: 38px;
+}
+.zero-container {
+  background-color: beige;
+  visibility: hidden;
+}
